@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hepeng/workspace/cpp/puzzle/givenNums/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+
+/Users/hepeng/workspace/cpp/puzzle/givenNums/main2.cpp
+iostream
+-
+unordered_map
+-
+vector
+-
+
