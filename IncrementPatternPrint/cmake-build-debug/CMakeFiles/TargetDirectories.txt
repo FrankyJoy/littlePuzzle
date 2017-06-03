@@ -1,0 +1,3 @@
+/Users/hepeng/workspace/cpp/puzzle/IncrementPatternPrint/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/hepeng/workspace/cpp/puzzle/IncrementPatternPrint/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hepeng/workspace/cpp/puzzle/IncrementPatternPrint/cmake-build-debug/CMakeFiles/IncrementPatternPrint.dir
