@@ -27,22 +27,23 @@ void IncrementPatternPrint(int n,int s);
 int main() {
     int n=0,s=0;
     cin >>n >>s;
-
+    
     IncrementPatternPrint(n,s);
-
+    
     return 0;
 }
 
 void IncrementPatternPrint(int n,int s)
 {
     vector<string> strvec;
-    //代表当前数字循环次数
-    for(int i=1;i<=n;i++)
+    //代表当前数字循环次数,n循环s次
+    
+    for(int i=1;i<=s;i++)
     {
-        strvec.push_back(getCopy(s,i));
-        s++;
+        strvec.push_back(getCopy(n,i));
+        n++;
     }
-
+    
     for(auto it=strvec.begin();it!=strvec.end();it++)
     {
         cout<<*it<<endl;
